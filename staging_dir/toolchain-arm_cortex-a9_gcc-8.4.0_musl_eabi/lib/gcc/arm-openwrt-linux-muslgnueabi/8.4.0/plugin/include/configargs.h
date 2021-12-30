@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/wangjun/21/build_dir/toolchain-arm_cortex-a9_gcc-8.4.0_musl_eabi/gcc-8.4.0/configure --with-bugurl=http://bugs.openwrt.org/ --with-pkgversion='OpenWrt GCC 8.4.0 r19085-9a6b44849d' --prefix=/home/wangjun/21/staging_dir/toolchain-arm_cortex-a9_gcc-8.4.0_musl_eabi --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-libmpx --disable-nls --disable-libssp --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/wangjun/21/staging_dir/host --with-mpfr=/home/wangjun/21/staging_dir/host --with-mpc=/home/wangjun/21/staging_dir/host --disable-decimal-float --with-diagnostics-color=auto-if-env --enable-__cxa_atexit --disable-libstdcxx-dual-abi --with-default-libstdcxx-abi=new --with-cpu=cortex-a9 --with-headers=/home/wangjun/21/staging_dir/toolchain-arm_cortex-a9_gcc-8.4.0_musl_eabi/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/wangjun/21/staging_dir/toolchain-arm_cortex-a9_gcc-8.4.0_musl_eabi/lib --enable-lto --with-libelf=/home/wangjun/21/staging_dir/host --disable-libsanitizer";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "cpu", "cortex-a9" }, { "float", "soft" }, { "tls", "gnu" } };
